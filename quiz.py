@@ -83,15 +83,12 @@ for question in questions:
     for option in options[question_num]:
         print(option)
     guess = input("Enter A. B. C. D: ").upper()
-    if guess == ('A','B','C','D'):
-        guesses.append(guess)
-    else:
-        guesses.append(guess)
-        print("Guess is out of the list")
     if guess==answers[question_num]:
+        guesses.append(guess)
         print("Correct")
         score +=1
     else:
+        guesses.append(guess)
         print("Incorrect")
         print(f"{answers[question_num]} is the correct answer")
     question_num += 1
@@ -106,7 +103,7 @@ print("Guesses", end=" ")
 for guess in guesses:
     print(guess,end=" ")
 print()
-try:
+if len(guesses)!=0:
     print("Your Score :",(score/len(guesses))*100,"%")
-except:
-    print("100%")
+else:
+    print("Your Score : 100%")

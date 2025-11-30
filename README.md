@@ -1,6 +1,5 @@
 # python_quiz
 Whole code is written in quiz.py file only as for now but soon will do changes and make it more valuable.
-It's my first project in Python.
 In this project I used lists, sets and some features of it used input() for taking input from the user and basic if - elif - statements used.
 At the end it shows that what are the answers and what are the guesses which user did and under that score in percentage - corrected answers/total questions * 100.
 This is just the start i am still learning and will come up with more good and valuable projects.

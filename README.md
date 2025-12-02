@@ -1,9 +1,6 @@
-# python_quiz
-Whole code is written in quiz.py file only as for now but soon will do changes and make it more valuable.
-In this project I used lists, sets and some features of it used input() for taking input from the user and basic if - elif - statements used.
-At the end it shows that what are the answers and what are the guesses which user did and under that score in percentage - corrected answers/total questions * 100.
-This is just the start i am still learning and will come up with more good and valuable projects.
-For the questions and answers in this quiz app i copy pasted from the internet.
+# python_quizzs
+The project is a quiz application written in a single file called quiz.py. It uses lists and sets along with basic if-elif statements and input() to take answers from the user.
+At the end of the quiz, it shows the correct answers, the user’s responses, and calculates the score as a percentage using the formula: (correct answers / total questions) * 100.
 
-In future will be looking for to add a GUI using tkinter or flask, with a separated json file so that everytime there will be a different set of questions in that.
-Anyone can contribute to it.
+This is an initial version of the project. The questions and answers were sourced from the internet.
+Future improvements include adding a GUI using Tkinter or Flask and storing questions in a separate JSON file so that different sets of questions can be used each time. The project can also be open for collaboration and contributions.

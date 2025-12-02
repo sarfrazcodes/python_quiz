@@ -9,6 +9,7 @@ questions = (
     "Q8. Which operator is used for exponentiation in Python?",
     "Q9. Which of the following is not a mutable data type in Python?",
     "Q10. Which of the following statements is used to handle exceptions in Python?"
+    "Q11. Which of the following is used to create a set in Python?"
 )
 options = (
     (
@@ -70,9 +71,15 @@ options = (
     "B. try-catch-finally",
     "C. try-except",
     "D. do-except"
+),
+(  
+    "A. {}",
+    "B. []",
+    "C. ()",
+    "D. <>"
+),
 )
-)
-answers = ('B','C','B','C','C','B','B','C','C','C')
+answers = ('B','C','B','C','C','B','B','C','C','C','A')
 guesses = []
 question_num = 0
 score = 0
@@ -106,4 +113,5 @@ print()
 if len(guesses)!=0:
     print("Your Score :",(score/len(guesses))*100,"%")
 else:
+
     print("Your Score : 100%")

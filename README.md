@@ -6,4 +6,3 @@ This is just the start i am still learning and will come up with more good and v
 For the questions and answers in this quiz app i copy pasted from the internet.
 
 In future will be looking for to add a GUI using tkinter or flask, with a separated json file so that everytime there will be a different set of questions in that.
-Anyone can contribute to it.

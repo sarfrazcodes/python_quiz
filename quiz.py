@@ -9,6 +9,8 @@ questions = (
     "Q8. Which operator is used for exponentiation in Python?",
     "Q9. Which of the following is not a mutable data type in Python?",
     "Q10. Which of the following statements is used to handle exceptions in Python?"
+    "Q11. Which method is used to add an item to the end of a list in Python?"
+
 )
 options = (
     (
@@ -71,8 +73,12 @@ options = (
     "C. try-except",
     "D. do-except"
 )
+    "A": "list.append(item)", 
+    "B": "list.insert(item)", 
+    "C": "list.extend(item)",   
+    "D": "list.add(item)"  
 )
-answers = ('B','C','B','C','C','B','B','C','C','C')
+answers = ('B','C','B','C','C','B','B','C','C','C','A')
 guesses = []
 question_num = 0
 score = 0
